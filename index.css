@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: whitesmoke;    
+}
+.flex-container{
+    
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.flex-container > div{
+  margin: 10px;
+}
+.child1{
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 100%;
+}
+.child2{
+  width: 30%;
+  height: auto;
+
+}
+.profilePhoto{
+   width: 100%;
+   height: auto;
+   border: 1px solid grey;
+   border-radius: 10px;
+}
+.profilePhoto > img{
+    width: 50%;
+    border: 1px solid grey;
+    border-radius: 100%;
+    display: block;
+    margin: 20px auto;
+}
+.profilePhoto > p{
+   color: grey;
+   font-size: 12px;
+   text-align: center;
+   font-weight: 900;
+}
+.details{
+    border: 1px solid grey;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+.details > ul{
+    padding: 30px;
+}
+.links{
+    border: 1px solid grey;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.links > span{
+    margin: 1px;
+}
+.material-icons{
+   color:chartreuse;
+}
+
+.child3{
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 66%;
+  max-width: 66%;
+  height: auto; 
+}
+.child3 > p{
+  font-size: 18px;
+  padding: 10px 40px;
+}
+.child3 > table{
+  width: 90%;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+}
+.child3 > table,th{
+  border: 1px solid grey;
+  
+}
